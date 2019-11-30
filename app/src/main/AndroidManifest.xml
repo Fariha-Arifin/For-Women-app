@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.forwomen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loginActivity">
+        </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".TransportActivity" />
+        <activity android:name=".HealthActivity" />
+        <activity android:name=".Service_and_BusinessActivity" />
+        <activity android:name=".ServiceActivity" />
+        <activity android:name=".BusinessActivity" />
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".SecurityActivity" />
+        <activity android:name=".Complain_and_AdviceActivity" />
+        <activity android:name=".FragmentTransport" />
+        <activity android:name=".FragmentService" />
+        <activity android:name=".FragmentBusiness" />
+        <activity android:name=".CommunityActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
